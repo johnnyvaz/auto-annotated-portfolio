@@ -1,4 +1,3 @@
----
 type: PageLayout
 title: Home
 colors: colors-a
@@ -14,12 +13,9 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      Mentoria PPA: Desenvolvimento de Sistemas e Transformação Digital
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Acompanhe nossa jornada de mentoria e acelere sua carreira no desenvolvimento de sistemas. Orientação profissional, projetos reais e uma rede de apoio para te guiar no mercado de tecnologia.
     styles:
       self:
         height: auto
@@ -52,8 +48,8 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: See all projects
-        url: /projects
+        label: Veja todos os projetos
+        url: /projetos
     showDate: false
     showDescription: true
     showFeaturedImage: true
@@ -84,16 +80,16 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Projects'
+    subtitle: 'Projetos'
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
     variant: variant-d
-    subtitle: Featured Posts
+    subtitle: Posts em Destaque
     showFeaturedImage: false
     actions:
       - type: Link
-        label: See all posts
+        label: Veja todos os posts
         url: /blog
     posts:
       - content/pages/blog/post-six.md
@@ -130,23 +126,16 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: "Tem um projeto interessante? Vamos conversar \U0001F4AC"
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
         - name: firstName
-          label: First Name
+          label: Nome
           hideLabel: true
-          placeholder: First Name
+          placeholder: Nome
           isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
           width: 1/2
           type: TextFormControl
         - name: email
@@ -156,19 +145,19 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: message
+          label: Mensagem
           hideLabel: true
-          placeholder: Address
+          placeholder: Deixe sua mensagem
           isRequired: true
-          width: 1/2
+          width: full
           type: TextFormControl
         - name: updatesConsent
-          label: Sign me up to recieve updates
+          label: Quero receber atualizações
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Enviar \U0001F680"
       styles:
         submitLabel:
           textAlign: center
@@ -193,4 +182,3 @@ sections:
         textAlign: left
       text:
         textAlign: left
----
